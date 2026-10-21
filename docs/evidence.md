@@ -15,3 +15,11 @@ The public portal's [verification record](https://github.com/uspharaoh93/secure-
 There is no independent penetration test, ISO 27001 certification, production uptime assessment or compliance conclusion in either repository. No vulnerability is alleged in the private product. The two security scenarios belong to the public educational build.
 
 Publication was prepared on October 21, 2026. Future changes and dependency updates require fresh checks; old successful runs apply only to the revision they tested.
+
+## Public repository verification
+
+The [initial published revision passed documentation and secret-scan jobs](https://github.com/uspharaoh93/secure-development-case-study/actions/runs/39678753586). The local checker and all six checker tests also passed. The scan covered the new repository's complete committed history; no private history was imported.
+
+The `main` branch requires the **Verify documentation** and **Secret scan** checks, an up-to-date branch, a pull request and resolved review conversations. These rules apply to administrators, and force pushes and branch deletion are disabled. The required approving-review count is zero for this solo portfolio; a pull request is not evidence of independent human approval. The default workflow token is read-only, and private vulnerability reporting is enabled.
+
+The linked run applies to its own commit. Use the status badge or Actions page to inspect later revisions.
